@@ -1,0 +1,32 @@
+{
+  "name": "graphql-introspect",
+  "version": "1.0.0",
+  "author": "Sergey Elsukov <oct8cat@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "graphql-introspect": "bin/graphql-introspect.js"
+  },
+  "dependencies": {
+    "graphql": "^0.9.6"
+  },
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.1"
+  },
+  "description": "CLI tool for building GraphQL schemas representation in the Schema Language format from [GraphQLSchema](http://graphql.org/graphql-js/type/#graphqlschema) object or GraphQL server URL.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oct8cat/graphql-introspect.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/oct8cat/graphql-introspect/issues"
+  },
+  "homepage": "https://github.com/oct8cat/graphql-introspect#readme"
+}
