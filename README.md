@@ -6,6 +6,8 @@ or GraphQL server URL.
 
 [![wercker status](https://app.wercker.com/status/e590361ccce6a245df73e8776c86d2f6/m/ "wercker status")](https://app.wercker.com/project/byKey/e590361ccce6a245df73e8776c86d2f6)
 
+![](http://i.imgur.com/PIBF66W.gif)
+
 ## Installation
 
 ```

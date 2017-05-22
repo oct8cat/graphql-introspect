@@ -3,7 +3,10 @@
 const {introspect} = require('..')
 
 const [from] = process.argv.slice(2)
-if (!from) return 'Usage: graphql-introspect <path|URL>'
+if (!from) {
+  console.log('Usage: graphql-introspect <path|URL>')
+  process.exit(0)
+}
 
 introspect(from)
   .then(out => console.log(out))
